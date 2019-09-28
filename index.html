@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Cystal Collector</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="./assets/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="box-A">
+            <h1>
+                Crystal Collector
+            </h1>
+        </div>
+
+        <div class="box-B">
+            <h2>
+                Instructions:
+            </h2>
+            <hr>
+            <p>
+                At the beginning of the game you will be given a random number.
+            </p>
+            <p>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total
+                score.
+            </p>
+            <p>
+                You win the game by matching your total exactly to the random number, you lose if your total goes over
+                the
+                random amount.
+            </p>
+            <p>
+                The value of of each crystal is hidden until you click on it.
+            </p>
+            <p>
+                Each time when the game starts the game will change the values of each crystal.
+            </p>
+        </div>
+
+        <div class="container-2">
+            <div class="randomNum">
+                <!--  -->
+            </div>
+        </div>
+
+        <div class="win-loss">
+            <br>
+            <h2 id="winS">Wins:</h2>
+            <br>
+            <h2 id="lossS">Losses:</h2>
+        </div>
+
+        <div class="crystal">
+            <div class="cryst1"></div>
+            <div class="cryst2"></div>
+            <div class="cryst3"></div>
+            <div class="cryst4"></div>
+        </div>
+
+        <div class="score">Your total score is:</div>
+
+        <div class="scoreCounter">
+            <!--  -->
+        </div>
+
+    </div>
+
+    <script src="./assets/javascript/game.js"></script>
+
 </body>
+
 </html>
+<!-- 
+    <div class="container">
+        <div class="randomNum">
+
+        </div>
+
+    </div>
+
+    <div class="box-win-lose">
+        <h4>Wins:</h4>
+        <h4>Losses:</h4>
+    </div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div class="box-total">
+        <h4>Your total score is:</h4>
+    </div> -->
