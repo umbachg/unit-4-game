@@ -8,32 +8,52 @@ body {
 
 h1 {
     color: #000000;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Grenze', serif; 
     text-align: center;
     padding-top: 14px;
 }
 
 h2 {
-    font-size: 15px;
-    
+    font-size: 30px;
+    font-family: 'Grenze', serif; 
 }
 
-.box-A {
-    width: 230px;
-    height: 60px;
-    background-color: #ffffff;
-    margin-bottom: 10px;
+h4 {
+    font-size: 18px;
+    font-family: 'Grenze', serif;
+
 }
 
 p {
     color: #000000;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Yrsa', serif;
 }
+
+.box-A {
+    width: 300px;
+    height: 60px;
+    background-color: rgba(255,255,255, 0.5);
+    color: inherit;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
 
 .box-B {
     width: 400px;
-    height: 340px;
-    background-color: #ffffff; 
-    padding: 5px;
+    height: 350px;
+    background-color: rgba(255,255,255, 0.5);
+    color: inherit;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px;
     margin-bottom: 10px;
 }
 
@@ -43,7 +63,11 @@ p {
 }
 
 .randomNum {
-    background-color: #ffffff;
+    background-color: rgba(255,255,255, 0.5);
+    color: inherit;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     width: 204px;
     height: 97px;
     float: left;
@@ -53,19 +77,23 @@ p {
 }
 
 .win-loss {
-    background-color: #ffffff;
+    background-color: rgba(255,255,255, 0.5);
+    color: inherit;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     height: 97px;
-    width: 68px;
+    width: 100px;
     margin: -100px 0px 0px 220px; 
     padding: 3px;
 }
 
 .container {
     width: 50%;
-    padding: 10px; 
+    padding: 50px; 
 }
 
-.crystal {
+.creature {
     margin-top: 10px;
     height: 100px;
     width: 430px;
@@ -104,8 +132,14 @@ p {
     width: 207px;
     height: 20px;
     margin-top: 10px;
-    background-color: #ffffff;
+    background-color: rgba(255,255,255, 0.5);
+    color: inherit;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     color: #000000;
+    font-family: 'Grenze', serif; 
+    font-size: 18px;
     padding: 5px 0px 0px 3px;
     line-height: 15px;
 }
@@ -113,64 +147,13 @@ p {
 .scoreCounter {
     padding-left: 3px;
     margin: 10px 0px 20px 0px; 
-    background-color: #ffffff;
+    background-color: rgba(255,255,255, 0.5);
+    color: inherit;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     width: 207px;
     height: 100px;
     color: #000000;
     font-size: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* body {
-	font-family: 'Arial', Helvetica, sans-serif;
-	color: #000000;
-	background-image: url('');
-	margin: 0;
-	padding: 0;
-}
-
-h1 {
-	font-family: 'Georgia', 'Times New Roman', Times, serif;
-	font-size: 24px;
-	color: #000000;
-	text-align: center;
-}
-
-h2 {
-	font-family: 'Georgia', 'Times New Roman', Times, serif;
-	color: #4aaaa5;
-}
-
-h4 {
-	font-family: 'Georgia', 'Times New Roman', Times, serif;
-	color: #4aaaa5;
-}
-
-.box-A {
-	width: 960px;
-	min-height: 100%;
-	margin: 0 auto;
-}
-
-.box-B {
-	background-color: #945d5d;
-    width: 920px;
-    height: 480px;
-    padding: 20px;
-    margin: auto;
-    margin: 40px 0px;
-    border-style: solid;
-    border-width: 1px;
-	border-color: #dddddd;
-	line-height: 35px;
-} */

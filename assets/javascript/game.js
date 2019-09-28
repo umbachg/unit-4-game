@@ -6,14 +6,12 @@ $(document).ready(function () {
     $("#lossS").text("Losses: " + lossCount);
     var userScore = 0;
     var gameScore = Math.floor(Math.random() * 102) + 19;
-    var crystOne = Math.floor(Math.random() * 12) + 1;
-    var crystTwo = Math.floor(Math.random() * 12) + 1;
-    var crystThree = Math.floor(Math.random() * 12) + 1;
-    var crystFour = Math.floor(Math.random() * 12) + 1;
+    var crystOne = Math.floor(Math.random() * 10) + 1;
+    var crystTwo = Math.floor(Math.random() * 10) + 1;
+    var crystThree = Math.floor(Math.random() * 10) + 1;
+    var crystFour = Math.floor(Math.random() * 10) + 1;
     $(".randomNum").text(gameScore);
     $(".scoreCounter").text(userScore);
-    var lose = new Audio("./assets/sounds/loss.mp3");
-    var win = new Audio("./assets/sounds/win.mp3");
     console.log(gameScore);
     console.log(crystOne);
     console.log(crystTwo);
@@ -39,18 +37,15 @@ $(document).ready(function () {
     function winGame() {
         winCount = winCount + 1;
         $("#winS").text("Wins: " + winCount);
-        win.play();
         resetGame();
     }
 
     function loseGame() {
         lossCount = lossCount + 1;
         $("#lossS").text("Losses: " + lossCount);
-        lose.play();
         resetGame();
     }
 
-// image on click functions: does the math for adding stuff
     $(".cryst1").click(function () {
         userScore = userScore + crystOne;
         console.log(userScore);
